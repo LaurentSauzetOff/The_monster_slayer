@@ -1,10 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .text-center {
     text-align: center;
 }
 
 .healthbar {
     width: 80%;
-    height: 40px;
+    height: 30px;
+    border-radius: 50px;
     background-color: #eee;
     margin: auto;
     transition: width 500ms;
@@ -12,6 +17,7 @@
 
 .controls, .log {
     margin-top: 30px;
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
     border: 1px solid #ccc;
@@ -49,7 +55,8 @@ button {
     font-size: 20px;
     background-color: #eee;
     padding: 12px;
-    box-shadow: 0 1px 1px black;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px black;
     margin: 10px;
 }
 
@@ -86,9 +93,9 @@ button {
 }
 
 #give-up {
-    background-color: #ffffff;
+    background-color: #f1d1d1;
 }
 
 #give-up:hover {
-    background-color: #c7c7c7;
+    background-color: #dba6a6;
 }
