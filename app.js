@@ -48,7 +48,7 @@ new Vue({
         }
         this.turns.unshift({
             isPlayer : true,
-            text: 'Vous avez remonté vore santé de '
+            text: 'Vous avez remonté vore santé de 10 points'
         })
         this.monsterAttacks();
     },
